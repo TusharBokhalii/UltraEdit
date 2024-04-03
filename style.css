@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato&family=Martel+Sans:wght@600&family=Merriweather:wght@700;900&family=Roboto&family=Roboto+Slab&family=Yantramanav&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato&family=Martel+Sans:wght@600&family=Merriweather:wght@700;900&family=Roboto&family=Roboto+Slab&family=Yantramanav&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.first strong{
+    font-family: 'Yantramanav';
+}
+.img1 {
+    padding: 0px 20px;
+}
+
+div span {
+    font-size: 50px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI";
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.VERSION {
+    padding: 15px 25px;
+    color: white;
+    background-color: rgb(36, 179, 204);
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Yantramanav', sans-serif;
+    cursor: pointer;
+}
+
+.pra {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.center1 {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+
+.secondmain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 200px;
+    margin-top: 100px;
+}
+
+.text {
+    font-size: 24px;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.ver {
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+}
+
+.lan {
+    width: 300px;
+    height: 200px;
+    background-color: aliceblue;
+    margin: 20px;
+    /* border: 1px solid black; */
+}
+
+.english {
+    display: flex;
+    justify-content: center;
+    font-family: 'Yantramanav';
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Deutsch {
+    display: flex;
+    justify-content: center;
+    font-family: 'Yantramanav';
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.German {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.Italiano {
+    display: flex;
+    justify-content: center;
+    font-family: 'Yantramanav';
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Italian {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.Spanish {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.secall {
+    display: flex;
+    justify-content: center;
+}
+
+.Español {
+    display: flex;
+    justify-content: center;
+    font-family: 'Yantramanav';
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.français {
+    display: flex;
+    justify-content: center;
+    font-family: 'Yantramanav';
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.French {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.ItaPortuguêsbrasileiroliano {
+    display: flex;
+    justify-content: center;
+    font-family: 'Yantramanav';
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.BrazilianPortuguese {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+}
+
+.日本 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Yantramanav';
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Japanese {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.한국어 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Yantramanav';
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Korean {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.中国 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Yantramanav';
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Chinese {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+}
+
+.中國 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Yantramanav';
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.中國 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Yantramanav';
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.TraditionalChinese {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.lan23 {
+    background-color: white;
+    border: none;
+}
+
+.biggest {
+    margin: 0px 15px;
+    margin-top: 80px;
+}
+
+.biggests {
+    margin: 0px 15px;
+    margin-top: 60px;
+}
+
+.bit-32 {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(36, 179, 204);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bit-64 {
+    padding: 10px;
+    background-color: rgb(42, 158, 42);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bit-322 {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(36, 179, 204);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bit-644 {
+    padding: 10px;
+    background-color: rgb(42, 158, 42);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.downcon {
+    width: 100%;
+    height: 700px;
+    border: 1px solid black;
+    background-color: rgb(24, 23, 23);
+    color: aliceblue;
+    overflow: hidden;
+    
+}
+.first{
+    margin: 25px;
+}
+.sing{
+    width: 350px;
+    height: 250px;
+    background-color:white;
+    border: none;
+    color:  rgb(36, 179, 204);
+    text-align: center;
+    margin: 25px;
+    margin-left: 495px;
+    border-radius: 8px;
+}
+.t p{
+    font-size: 24px;
+    font-weight: 500px;
+    position: relative;
+    top: 30px;
+    font-family: 'Yantramanav';
+}
+.tx h3{
+    font-family: 'Yantramanav';
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    left: 200px;
+    top: 33px;
+}
+.tx p{
+    font-size: 16px;
+    position: relative;
+    top: 50px;
+    font-weight: 400;
+    font-family: 'Yantramanav';
+    left: 204px;
+}
+.email{
+    color: black;
+    position: relative;
+    top: 70px;
+}
+.inpuat{
+    position: relative;
+    top: 75px;
+}
+.inpuat input{
+    padding: 15px 25px;
+}
+.botoan{
+    position: relative;
+    top: 90px;
+}
+.botoan button{
+    padding: 12px 86px;
+    background-color: rgb(36, 179, 204);
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset;
+    box-shadow: 0px 3px rgb(212, 252, 253);
+    font-family:monospace;
+    cursor: pointer;
+}
+.escee{
+    font-family: 'Yantramanav';
+    position: relative;
+    left: 200px;
+
+}
+.questions{
+    /* font-family: 'Yantramanav'; */
+    position: relative;
+    left: 220px;
+    font-size: 24px;
+}
+.color1{
+    color: rgb(36, 179, 204);
+    font-size: 16px;
+    text-align: center;
+}
+.ans p{
+    position: relative;
+    left: 220px;
+    top: 10px;
+}
+.escee1{
+    font-family: 'Yantramanav';
+    position: relative;
+    left: 200px;
+    top: 20px;
+    
+}
+.questions1{
+    position: relative;
+    left: 220px;
+    font-size: 24px;
+}
+
+.ans1 p span{
+    font-size: 16px;
+   justify-content: center;
+   color: rgb(36, 179, 204);;
+}
+.ans1 p{
+    font-size: 16px;
+    position: relative;
+    left: 218px;
+    font-weight: 500;
+}
+/* @media only screen and (max-width: 949px) {
+    ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    ul li {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .first {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .secondmain {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: static;
+        margin-top: 50px;
+    }
+
+    .lan {
+        width: 100%;
+        height: auto;
+    }
+
+    .biggest,
+    .biggests {
+        margin-top: 40px;
+    }
+
+    .downcon {
+        height: auto;
+    }
+
+    .tx,
+    .sing {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .escee,
+    .escee1 {
+        left: 0;
+    }
+
+    .ans p {
+        left: 0;
+        top: 0;
+    }
+
+    .ans1 p {
+        left: 0;
+        top: 0;
+    }
+
+    .botoan button {
+        padding: 12px 24px;
+    }
+} */
+@media screen and (max-width:949px){
+    .all, .secall, .third,.four,.second,.first,.tx{
+        flex-direction: column;
+        
+    }
+    .all{
+        text-align: center;
+    }
+    .downcon{
+        flex-direction: column;
+    }
+    nav{
+        /* display: inline-block; */
+        flex-direction: column;
+    }
+    .logo .text .ver {
+        position: relative;
+        left: 200px;
+    }
+    ul {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .secon{
+        text-align: center;
+    }
+
+    .logo {
+        width: 20vw;
+    }
+    .lan , .lan1{
+        flex-direction: column;
+    }
+}
